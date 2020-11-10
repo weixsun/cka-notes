@@ -29,11 +29,11 @@ $ docker stats db
 CONTAINER           CPU %               MEM USAGE / LIMIT       MEM %               NET I/O             BLOCK I/O           PIDS
 db                  0.03%               196.8 MiB / 3.843 GiB   5.00%               1.94 kB / 648 B     58.5 MB / 12.8 MB   27
 ```
-`-m 200M`：限制内存使用200M，如果
+`-m 200M`：限制内存使用200M，如果超出规定的内存报如下错误提示：
+
+<img src="https://raw.githubusercontent.com/weixsun/cka-notes/main/images/docker_container_oom.png">
 
 `docker stats` 查看容器资源消耗情况
-
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQoveUGR-f8Fyn9ry3kLf88S4cTzQfCjeU-_HKqv_fuDeM3FRyeQwLEwwifcfEDQ85VL2mPb5rWSTQx/pub?w=1440&amp;h=900">
 
 
 ### 对容器CPU的限制 ###
